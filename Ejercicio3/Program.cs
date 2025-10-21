@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 class Program
 {
@@ -18,36 +19,36 @@ class Program
             "Sevilla;Valencia;2-2;Copa del Rey;2025-10-21"
         };
 
-        var registros = from d in datos
-                        let p = d.Split(';')
+        var registros = from dato in datos
+                        let posicion = dato.Split(';')
                         select new
                         {
-                            Equipo1 = p[0],
-                            Equipo2 = p[1],
-                            Resultado = p[2],
-                            Competicion = p[3],
-                            Fecha = DateOnly.Parse(p[4])
+                            Equipo1 = posicion[0],
+                            Equipo2 = posicion[1],
+                            Resultado = posicion[2],
+                            Competicion = posicion[3],
+                            Fecha = DateOnly.Parse(posicion[4])
                         };
 
         // Equipos
         var equipos = new List<Equipo>();
-        int idEq = 1;
+        int idEquipo = 1;
         foreach (var r in registros)
         {
             if (!equipos.Any(e => e.Nombre == r.Equipo1))
-                equipos.Add(new Equipo { Id = idEq++, Nombre = r.Equipo1 });
+                equipos.Add(new Equipo { Id = idEquipo++, Nombre = r.Equipo1 });
 
             if (!equipos.Any(e => e.Nombre == r.Equipo2))
-                equipos.Add(new Equipo { Id = idEq++, Nombre = r.Equipo2 });
+                equipos.Add(new Equipo { Id = idEquipo++, Nombre = r.Equipo2 });
         }
 
         // Competiciones
         var competiciones = new List<Competicion>();
-        int idC = 1;
+        int idCompeticion = 1;
         foreach (var r in registros)
         {
             if (!competiciones.Any(c => c.Nombre == r.Competicion))
-                competiciones.Add(new Competicion { Id = idC++, Nombre = r.Competicion });
+                competiciones.Add(new Competicion { Id = idCompeticion++, Nombre = r.Competicion });
         }
 
         // Partidos
