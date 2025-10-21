@@ -1,0 +1,14 @@
+C:\Users\marco\source\repos\normalizarDatos\normalizarDatos\bin\Debug\net8.0\normalizarDatos.exe
+C:\Users\marco\source\repos\normalizarDatos\normalizarDatos\bin\Debug\net8.0\normalizarDatos.deps.json
+C:\Users\marco\source\repos\normalizarDatos\normalizarDatos\bin\Debug\net8.0\normalizarDatos.runtimeconfig.json
+C:\Users\marco\source\repos\normalizarDatos\normalizarDatos\bin\Debug\net8.0\normalizarDatos.dll
+C:\Users\marco\source\repos\normalizarDatos\normalizarDatos\bin\Debug\net8.0\normalizarDatos.pdb
+C:\Users\marco\source\repos\normalizarDatos\normalizarDatos\obj\Debug\net8.0\normalizarDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marco\source\repos\normalizarDatos\normalizarDatos\obj\Debug\net8.0\normalizarDatos.AssemblyInfoInputs.cache
+C:\Users\marco\source\repos\normalizarDatos\normalizarDatos\obj\Debug\net8.0\normalizarDatos.AssemblyInfo.cs
+C:\Users\marco\source\repos\normalizarDatos\normalizarDatos\obj\Debug\net8.0\normalizarDatos.csproj.CoreCompileInputs.cache
+C:\Users\marco\source\repos\normalizarDatos\normalizarDatos\obj\Debug\net8.0\normalizarDatos.dll
+C:\Users\marco\source\repos\normalizarDatos\normalizarDatos\obj\Debug\net8.0\refint\normalizarDatos.dll
+C:\Users\marco\source\repos\normalizarDatos\normalizarDatos\obj\Debug\net8.0\normalizarDatos.pdb
+C:\Users\marco\source\repos\normalizarDatos\normalizarDatos\obj\Debug\net8.0\normalizarDatos.genruntimeconfig.cache
+C:\Users\marco\source\repos\normalizarDatos\normalizarDatos\obj\Debug\net8.0\ref\normalizarDatos.dll
