@@ -18,16 +18,16 @@ class Program
             "Sevilla;Valencia;2-2;Copa del Rey;2025-10-21"
         };
 
-        var registros = datos.Select(d =>
+        var registros = datos.Select(dato =>
         {
-            var p = d.Split(';');
+            var posicion = dato.Split(';');
             return new
             {
-                Equipo1 = p[0],
-                Equipo2 = p[1],
-                Resultado = p[2],
-                Competicion = p[3],
-                Fecha = DateOnly.Parse(p[4])
+                Equipo1 = posicion[0],
+                Equipo2 = posicion[1],
+                Resultado = posicion[2],
+                Competicion = posicion[3],
+                Fecha = DateOnly.Parse(posicion[4])
             };
         }).ToList();
 
@@ -45,11 +45,11 @@ class Program
 
         // Competiciones
         var competiciones = new List<Competicion>();
-        int idComp = 1;
+        int idCompeticion = 1;
         foreach (var r in registros)
         {
             if (!competiciones.Any(c => c.Nombre == r.Competicion))
-                competiciones.Add(new Competicion { Id = idComp++, Nombre = r.Competicion });
+                competiciones.Add(new Competicion { Id = idCompeticion++, Nombre = r.Competicion });
         }
 
         // Partidos

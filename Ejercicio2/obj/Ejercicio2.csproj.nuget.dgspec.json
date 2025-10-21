@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\marco\\source\\repos\\normalizarDatos\\Ejercicio2\\Ejercicio2.csproj": {}
+    "C:\\Users\\marco\\Source\\Repos\\normalizarDatos_marcospalomomendez\\Ejercicio2\\Ejercicio2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\marco\\source\\repos\\normalizarDatos\\Ejercicio2\\Ejercicio2.csproj": {
+    "C:\\Users\\marco\\Source\\Repos\\normalizarDatos_marcospalomomendez\\Ejercicio2\\Ejercicio2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\marco\\source\\repos\\normalizarDatos\\Ejercicio2\\Ejercicio2.csproj",
+        "projectUniqueName": "C:\\Users\\marco\\Source\\Repos\\normalizarDatos_marcospalomomendez\\Ejercicio2\\Ejercicio2.csproj",
         "projectName": "Ejercicio2",
-        "projectPath": "C:\\Users\\marco\\source\\repos\\normalizarDatos\\Ejercicio2\\Ejercicio2.csproj",
+        "projectPath": "C:\\Users\\marco\\Source\\Repos\\normalizarDatos_marcospalomomendez\\Ejercicio2\\Ejercicio2.csproj",
         "packagesPath": "C:\\Users\\marco\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\marco\\source\\repos\\normalizarDatos\\Ejercicio2\\obj\\",
+        "outputPath": "C:\\Users\\marco\\Source\\Repos\\normalizarDatos_marcospalomomendez\\Ejercicio2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
