@@ -34,36 +34,36 @@ class Program
             var fecha = DateOnly.Parse(partes[4]);
 
             // Equipo 1
-            var eq1 = equipos.Find(e => e.Nombre == nombre1);
-            if (eq1 == null)
+            var equipo1 = equipos.Find(e => e.Nombre == nombre1);
+            if (equipo1 == null)
             {
-                eq1 = new Equipo { Id = idEquipo++, Nombre = nombre1 };
-                equipos.Add(eq1);
+                equipo1 = new Equipo { Id = idEquipo++, Nombre = nombre1 };
+                equipos.Add(equipo1);
             }
 
             // Equipo 2
-            var eq2 = equipos.Find(e => e.Nombre == nombre2);
-            if (eq2 == null)
+            var equipo2 = equipos.Find(e => e.Nombre == nombre2);
+            if (equipo2 == null)
             {
-                eq2 = new Equipo { Id = idEquipo++, Nombre = nombre2};
-                equipos.Add(eq2);
+                equipo2 = new Equipo { Id = idEquipo++, Nombre = nombre2};
+                equipos.Add(equipo2);
             }
 
             // Competición
-            var comp = competiciones.Find(c => c.Nombre == competicionNombre);
-            if (comp == null)
+            var competicion = competiciones.Find(c => c.Nombre == competicionNombre);
+            if (competicion == null)
             {
-                comp = new Competicion { Id = idCompeticion++, Nombre = competicionNombre };
-                competiciones.Add(comp);
+                competicion = new Competicion { Id = idCompeticion++, Nombre = competicionNombre };
+                competiciones.Add(competicion);
             }
 
             // Partido
             var partido = new Partido
             {
                 Id = idPartido++,
-                Equipo1Id = eq1.Id,
-                Equipo2Id = eq2.Id,
-                CompeticionId = comp.Id,
+                Equipo1Id = equipo1.Id,
+                Equipo2Id = equipo2.Id,
+                CompeticionId = competicion.Id,
                 Resultado = resultado,
                 Fecha = fecha
             };
